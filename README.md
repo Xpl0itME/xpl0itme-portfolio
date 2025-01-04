@@ -21,11 +21,11 @@ This project is a responsive portfolio website designed for Himanshu Bharti, a s
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Xpl0itME/xpl0itme-portfolio
    ```
 2. Navigate to the project directory:
    ```bash
-   cd portfolio-website
+   cd xpl0itme-portfolio
    ```
 3. Open the `index.html` file in your preferred browser to view the website locally.
 
