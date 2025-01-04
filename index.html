@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Bharti - Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #161b22;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            color: #58a6ff;
+        }
+        nav {
+            display: flex;
+            gap: 1rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: #58a6ff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #1f6feb;
+        }
+        main {
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            padding: 1rem 2rem;
+            background-color: #21262d;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        section h2 {
+            color: #58a6ff;
+        }
+        .achievement img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem 0;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #161b22;
+            color: #8b949e;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .skills div {
+            background-color: #0d1117;
+            padding: 1rem;
+            border: 1px solid #58a6ff;
+            border-radius: 8px;
+            flex: 1 1 calc(33% - 2rem);
+            box-sizing: border-box;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            nav {
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+            .skills div {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Himanshu Bharti</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#skills">Skills</a>
+            <a href="#blog">Blog</a>
+            <a href="#x">X</a>
+            <a href="#contact">Contact</a>
+            <a href="#details">My Details</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+            <p>I am Himanshu Bharti, a passionate programmer, hacker, and bug bounty hunter. My work revolves around ensuring the security of digital platforms and creating innovative solutions through code. Dive into my world and explore my achievements, skills, and more!</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>As a seasoned programmer and ethical hacker, I have dedicated my career to identifying and resolving critical security issues. My expertise spans across programming, penetration testing, and bug bounty hunting. I enjoy learning new technologies and contributing to a safer digital space.</p>
+        </section>
+
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <p>Recognized by some of the largest companies in the tech industry:</p>
+            <ul>
+                <li>Awarded by Apple</li>
+                <li>Awarded by Meta</li>
+                <li>Awarded by Shopify</li>
+                <li>Awarded by Cloudflare</li>
+                <li>Awarded by WP Engine</li>
+                <li>Awarded by HackerOne</li>
+            </ul>
+            <div class="achievement">
+                <img src="" alt="Achievements Image">
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div>Programming Languages: Python, JavaScript, C++</div>
+                <div>Web Development: HTML, CSS, React, Node.js</div>
+                <div>Cybersecurity: Penetration Testing, Vulnerability Assessment</div>
+                <div>Tools: Burp Suite, Metasploit, Nmap</div>
+                <div>Blockchain: Smart Contract Auditing, Web3 Security</div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Check out my latest articles:</p>
+            <ul>
+                <li><a href="https://medium.com/@xpl0itmE/read-locked-whatsapp-chats-on-android-and-ios-da1b39dd3ce2" target="_blank">How to Read Locked WhatsApp Chats on Android and iOS</a></li>
+            </ul>
+        </section>
+
+        <section id="x">
+            <h2>X</h2>
+            <p>Follow me on X for updates and insights:</p>
+            <a href="https://x.com/xpl0itmE" target="_blank">https://x.com/xpl0itmE</a>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:xpl0itme@wearehackerone.com">xpl0itme@wearehackerone.com</a></p>
+            <p>GitHub: <a href="https://github.com/xpl0itme" target="_blank">github.com/xpl0itme</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/himanshu-bharti-b42b41268/" target="_blank">https://www.linkedin.com/in/himanshu-bharti-b42b41268/</a></p>
+        </section>
+
+        <section id="details">
+            <h2>My Details</h2>
+            <p><strong>Name:</strong> Himanshu Bharti</p>
+            <p><strong>Date of Birth:</strong> January 2, 2025</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Himanshu Bharti. All rights reserved.</p>
+    </footer>
+</body>
+</html>
