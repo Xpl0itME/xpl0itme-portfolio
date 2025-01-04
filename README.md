@@ -1,68 +1,43 @@
-# Portfolio Webpage
+# Portfolio Website - Himanshu Bharti
 
-This is a portfolio webpage designed with a hacker and developer theme. It showcases projects and provides information about the developer.
-
-## Project Structure
-
-```
-portfolio-webpage
-├── public
-│   ├── index.html
-│   └── manifest.json
-├── src
-│   ├── assets
-│   │   └── styles
-│   │       └── main.css
-│   ├── components
-│   │   ├── Header.js
-│   │   ├── Footer.js
-│   │   └── PortfolioItem.js
-│   ├── pages
-│   │   ├── Home.js
-│   │   └── About.js
-│   ├── App.js
-│   ├── index.js
-│   └── setupTests.js
-├── package.json
-├── .gitignore
-└── README.md
-```
+## Overview
+This project is a responsive portfolio website designed for Himanshu Bharti, a skilled programmer, ethical hacker, and bug bounty hunter. The website is styled with a hacker and programmer theme, featuring dark mode aesthetics and minimalist design.
 
 ## Features
+- **Home**: A welcoming section with an introduction to Himanshu Bharti's work and passion.
+- **About**: Details about Himanshu’s professional background and expertise.
+- **Achievements**: Highlights of awards and recognition from renowned companies such as Apple, Meta, Shopify, Cloudflare, WP Engine, and HackerOne.
+- **Skills**: A showcase of technical proficiencies, including programming languages, web development tools, cybersecurity techniques, and blockchain expertise.
+- **Blog**: A section featuring articles authored by Himanshu, such as "How to Read Locked WhatsApp Chats on Android and iOS."
+- **X**: Links to social media platform X (formerly Twitter) for updates and insights.
+- **Contact**: Contact information including email, GitHub, and LinkedIn profiles.
+- **My Details**: Personal details such as name and date of birth.
 
-- Responsive design with a hacker aesthetic
-- Navigation between Home and About pages
-- Display of individual portfolio projects
-- Contact information and social media links in the footer
+## Technology Stack
+- **HTML5**: For the website structure.
+- **CSS3**: For styling and responsive design.
+- **Responsive Design**: Ensures compatibility across devices and screen sizes.
 
-## Getting Started
-
+## How to Use
 1. Clone the repository:
+   ```bash
+   git clone <repository_url>
    ```
-   git clone <repository-url>
-   ```
-
 2. Navigate to the project directory:
+   ```bash
+   cd portfolio-website
    ```
-   cd portfolio-webpage
-   ```
+3. Open the `index.html` file in your preferred browser to view the website locally.
 
-3. Install dependencies:
-   ```
-   npm install
-   ```
+## Future Enhancements
+- Add more blog articles.
+- Implement animations for smoother transitions.
+- Integrate a contact form with backend support.
 
-4. Start the development server:
-   ```
-   npm start
-   ```
+## Author
+**Himanshu Bharti**
+- Email: [xpl0itme@wearehackerone.com](mailto:xpl0itme@wearehackerone.com)
+- GitHub: [github.com/xpl0itme](https://github.com/xpl0itme)
+- LinkedIn: [linkedin.com/in/himanshu-bharti-b42b41268/](https://www.linkedin.com/in/himanshu-bharti-b42b41268/)
+- X: [x.com/xpl0itmE](https://x.com/xpl0itmE)
 
-## Technologies Used
-
-- React
-- React Router
-- CSS
-
-## License
-
-This project is licensed under the MIT License.
